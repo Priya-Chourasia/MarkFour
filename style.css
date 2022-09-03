@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+hr{
+    margin:2rem;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin:0px;
+}
+
+/** Container**/
+
+.container{
+    padding-left: 1rem;
+    padding-right:1rem;
+
+}
+.center-container{
+   max-width: 650px;
+   margin : auto;
+}
+
+
+/** link**/
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin:1rem;
+    
+    
+}
+.link-primary{
+    background-color:#831843;
+    border-radius: 1rem 1rem;
+    border: 0px solid #831843;
+    color:white;
+    padding:0.5rem;
+}
+
+.link-secondary{
+background-color:#white;
+border-radius: 1rem 1rem;
+border:0.5px solid #831843;
+color:#831843;
+padding:0.5rem;
+
+
+}
+.heading-inverted{
+    color:#831843;
+    font-weight: bold;
+
+}
+/** list**/
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+
+/**navigation**/
+.navigation{
+    background-color: #831843;
+    color:white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color:white;   
+
+}
+
+.navigation .list-non-bullet-nav{
+    text-align: right;
+    padding:1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 1.5rem;
+    color:#fef2f2;
+    text-align:left;
+
+}
+
+.navigation .heading-inverted{
+    color:#d1d5db;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**header**/
+.hero{
+    padding:0.5rem;
+}
+.hero .hero-image{
+    max-width: 30%;
+    display:block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    padding-top:0.5rem;
+    font-size:large;
+    color:#374151;
+    text-align: center;
+
+}
+.hero .hero-heading .heading-inverted{
+    color:#831843;
+
+}
+
+/** section**/
+.section{
+    padding: 1rem;
+    text-align: center;
+
+}
+   
+.section h1{
+    text-align: center;
+
+}
+.off-white-section{
+    padding:1rem;
+    background-color: #d1d5db;
+
+}
+
+/**footer**/
+.footer{
+    background-color: #831843;
+    padding:1.5rem;
+    text-align: center;
+    color:white;
+    border-bottom-right-radius: 1rem;
+
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
