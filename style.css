@@ -2,9 +2,11 @@
 
 hr{
     margin:2vh;
+  
 }
 body{
     font-family: 'Roboto Mono', monospace;
+    margin:0px;
 }
 
 /** Container**/
@@ -124,7 +126,7 @@ padding:0.5vh;
 .section{
     padding:1.5rem;
     text-align: center;
-    margin:auto;
+    margin:0px;
 
 }
    
@@ -136,9 +138,9 @@ padding:0.5vh;
     padding:1.5rem;
     background-color: #d1d5db;
     text-align: center;
-    margin: 0 auto;
     width: 100%;
     max-width: 100%;
+    margin:0px;
     
 }
 
