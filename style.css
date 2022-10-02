@@ -135,7 +135,10 @@ padding:0.5vh;
     padding:1.5rem;
     background-color: #d1d5db;
     text-align: center;
-    margin:auto;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    
 }
 
 /**footer**/
