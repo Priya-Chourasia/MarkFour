@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 hr{
-    margin:2rem;
+    margin:2vh;
 }
 body{
     font-family: 'Roboto Mono', monospace;
@@ -11,8 +11,8 @@ body{
 /** Container**/
 
 .container{
-    padding-left: 1rem;
-    padding-right:1rem;
+    padding-left: 1vh;
+    padding-right:1vh;
 
 }
 .center-container{
@@ -25,29 +25,27 @@ body{
 .link{
     box-sizing: border-box;
     text-decoration: none;
-    padding: 1rem 1rem;
-    margin:1rem;
-    
+    padding: 0.5vh 0.5vh;
+    margin:1vh;
     
 }
 .link-primary{
     margin:auto;
     background-color:#831843;
-    border-radius: 1rem 1rem;
+    border-radius: 1vh 1vh;
     border: 0px solid #831843;
     color:white;
     padding:0.5rem;
 }
 
 .link-secondary{
-background-color:#white;
-border-radius: 1rem 1rem;
+background-color:white;
+border-radius: 1vh 1vh;
 border:0.5px solid #831843;
 color:#831843;
-padding:0.5rem;
-
-
+padding:0.5vh;
 }
+
 .heading-inverted{
     color:#831843;
     font-weight: bold;
@@ -59,14 +57,14 @@ padding:0.5rem;
 }
 .list-inline{
     display: inline;
-    padding:0rem 0.5rem;
+    padding:0vh 0.5vh;
 }
 
 /**navigation**/
 .navigation{
     background-color: #831843;
     color:white;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 1vh;
 }
 .navigation .link{
     color:white;   
@@ -75,16 +73,16 @@ padding:0.5rem;
 
 .navigation .list-non-bullet-nav{
     text-align: right;
-    padding: 0.5rem ;
+    padding: 0.5vh;
 }
 
 .navigation .nav-brand{
     font-weight: bold;
     font-size: large;
-    padding-top: 1.5rem;
+    padding-top: 1.5vh;
     color:#fef2f2;
     text-align:justify;
-    padding-left: 5rem;
+    padding-left: 5vh;
 
 }
 
@@ -98,7 +96,7 @@ padding:0.5rem;
 
 /**header**/
 .hero{
-    padding:0.5rem;
+    padding:0.5vh;
 }
 .hero .hero-image{
     max-width: 30%;
@@ -107,7 +105,7 @@ padding:0.5rem;
 }
 
 .hero .hero-heading{
-    padding-top:0.5rem;
+    padding-top:0.5vh;
     font-size:large;
     color:#374151;
     text-align: center;
@@ -120,7 +118,7 @@ padding:0.5rem;
 
 /** section**/
 .section{
-    padding: 1rem;
+    padding: 2vh;
     text-align: center;
 
 }
@@ -130,7 +128,7 @@ padding:0.5rem;
 
 }
 .off-white-section{
-    padding:1rem;
+    padding:1vh;
     background-color: #d1d5db;
 
 }
@@ -138,10 +136,10 @@ padding:0.5rem;
 /**footer**/
 .footer{
     background-color: #831843;
-    padding:1.5rem;
+    padding:1.5vh;
     text-align: center;
     color:white;
-    border-bottom-right-radius: 1rem;
+    border-bottom-right-radius: 1vh;
 
 }
 .footer .footer-header{
