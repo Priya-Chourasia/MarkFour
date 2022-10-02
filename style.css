@@ -69,8 +69,8 @@ margin:auto;
     background-color: #831843;
     color:white;
     border-bottom-left-radius: 1vh;
-    margin:auto;
-    align: center;
+    margin:0%;
+    
 }
 .navigation .link{
     color:white; 
@@ -152,6 +152,7 @@ margin:auto;
     text-align: center;
     color:white;
     border-bottom-right-radius: 1vh;
+    margin:0%;
 
 }
 .footer .footer-header{
