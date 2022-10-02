@@ -5,7 +5,7 @@ hr{
 }
 body{
     font-family: 'Roboto Mono', monospace;
-    margin:0px;
+    margin:0rem;
 }
 
 /** Container**/
@@ -68,10 +68,11 @@ padding:0.5vh;
     color:white;
     border-bottom-left-radius: 1vh;
     margin:auto;
-    text-align: center;
+    align: center;
 }
 .navigation .link{
-    color:white;   
+    color:white; 
+    align:center;  
 
 }
 
