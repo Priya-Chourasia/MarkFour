@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 hr{
-    margin:2vh;
-  
+    margin:2vh; 
 }
 body{
     font-family: 'Roboto Mono', monospace;
     margin:0px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+ 
 }
 
 /** Container**/
@@ -14,13 +17,11 @@ body{
 .container{
     padding-left: 1vh;
     padding-right:1vh;
-
-
 }
 .center-container{
    max-width: 650px;
-   margin : auto;
-  
+   margin : auto; 
+   
 }
 
 
@@ -43,10 +44,10 @@ body{
 
 .link-secondary{
     margin:auto;
-background-color:white;
+background-color:rgb(254 205 211);
 border-radius: 1vh 1vh;
 border:0px solid #831843;
-color:#831843;
+color:black;
 padding:0.5rem;
 }
 
@@ -124,26 +125,26 @@ padding:0.5rem;
 }
 
 /** section**/
-.section{
-    padding:1.5rem;
+.section {
+    padding:1rem;
     text-align: center;
-    margin:0px;
-
+    border-radius: 0rem;
+    width: 100%;
 }
-   
+
 .section h1{
     text-align: center;
 
 }
 .off-white-section{
-    padding:1.5rem;
-    background-color: #d1d5db;
+    background-color: rgb(255 241 242);
+    border-radius: 0rem;
+    padding: 1rem;
     text-align: center;
     width: 100%;
-    max-width: 100%;
-    margin:0px;
-    
 }
+
+
 
 /**footer**/
 .footer{
