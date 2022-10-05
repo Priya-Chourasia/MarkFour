@@ -128,8 +128,7 @@ padding:0.5rem;
 .section {
     padding:1rem;
     text-align: center;
-    border-radius: 0rem;
-    width: 100%;
+    max-width: 100%;
 }
 
 .section h1{
@@ -138,12 +137,10 @@ padding:0.5rem;
 }
 .off-white-section{
     background-color: rgb(255 241 242);
-    border-radius: 0rem;
     padding: 1rem;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
 }
-
 
 
 /**footer**/
