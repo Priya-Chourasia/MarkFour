@@ -21,7 +21,7 @@ body{
 .center-container{
    max-width: 650px;
    margin : auto; 
-   
+   padding: 0.5rem;
 }
 
 
@@ -135,16 +135,17 @@ padding:0.5rem;
     text-align: center;
 
 }
-.off-white-section{
+.off-white-section .center-container{
     background-color: rgb(255 241 242);
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
-    max-width: 100%;
+border-radius: 5rem;
 }
 
 
 /**footer**/
 .footer{
+    padding-bottom: 0%;
     background-color: #831843;
     padding:1.5vh;
     text-align: center;
